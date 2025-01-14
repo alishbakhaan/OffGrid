@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+##Figma Link Attached
+https://www.figma.com/design/S8WgW1HEmUJQcjjbgepXOf/OFFGRID-Digital-Australia-Website-UI-%7C-Free-Website-UI-Download-(Community)?node-id=0-1&p=f&t=a3lLJTxHBknnsU5F-0
+
 ## Getting Started
 
 First, run the development server:

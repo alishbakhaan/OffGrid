@@ -10,7 +10,7 @@ const Poster = () => {
           width={400}
           height={400}
           alt='card'
-          className='object-cover w-full h-[700px]'
+          className='object-cover w-full md:h-[700px]'
         />
       </div>
     </div>

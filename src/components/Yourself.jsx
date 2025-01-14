@@ -19,9 +19,9 @@ const Yourself = () => {
                         />
                     </div>
                     <div className='flex flex-col'>
-                        <h1 className='text-4xl lg:text-6xl uppercase font-extrabold'>Rather do-it-yourself? </h1>
-                        <h1 className='text-2xl lg:text-4xl uppercase pt-10 max-w-lg'>10X your results with this guide on Hunting down leads and winning them as clients....it’s totally FREE</h1>
-                        <div className='grid grid-cols-2 gap-5 py-10'>
+                        <h1 className='text-4xl lg:text-7xl uppercase font-extrabold md:pb-6'>Rather do-it-yourself? </h1>
+                        <h1 className='text-2xl lg:text-5xl uppercase pt-10 max-w-2xl'>10X your results with this guide on Hunting down leads and winning them as clients....it’s totally FREE</h1>
+                        <div className='grid sm:grid-cols-2 gap-5 py-16'>
 
                             <input className='text-xl block bg-transparent border border-black border-opacity-40 rounded-md p-4' type="text" placeholder='Name*' />
                             <input className='text-xl block bg-transparent border border-black border-opacity-40 rounded-md p-4' type="email" placeholder='Email Address*' />

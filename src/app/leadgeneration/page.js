@@ -14,7 +14,7 @@ const page = () => {
                     <div>
                         <div className='flex gap-4 lg:gap-10 items-center justify-center'>
                         <h1 className="text-[#CEFA05] text-6xl lg:text-9xl font-bold py-4 uppercase">Lead</h1>
-                            <div className='w-full h-32 bg-[#CEFA05] -skew-x-6'></div>
+                            <div className='w-full h-12 md:h-32 bg-[#CEFA05] -skew-x-6'></div>
                         </div>
                         <h1 className={`${londrina.className} text-[#CEFA05] text-7xl lg:text-9xl font-bold uppercase`}>Generation</h1>
                     </div>

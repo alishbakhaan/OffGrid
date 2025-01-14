@@ -5,7 +5,7 @@ const RecentBlog = () => {
         <div>
             <div className="slanted-div after:bg-[#CEFA05]" >
                 {/* overlay effect */}
-                <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+                <div className='absolute object-cover w-full opacity-5 overflow-hidden bg-no-repeat bg-cover -top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
 
               <div className="mx-10 xl:mx-40 md:mb-40">
               <h1 className="text-black text-center text-4xl lg:text-7xl font-bold uppercase pb-20">Recent blogs</h1>
@@ -24,7 +24,7 @@ const RecentBlog = () => {
               </div>
 
                 {/* vectors */}
-                <div className='border-2 border-black absolute right-0 -top-20 w-20 h-20 -skew-y-6'></div>
+                <div className='border-2 border-black absolute right-0 top-0 sm:-top-20 w-40 h-20 -skew-y-6'></div>
               
 
             </div>

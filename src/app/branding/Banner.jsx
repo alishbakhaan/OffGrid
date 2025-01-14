@@ -10,10 +10,10 @@ const Banner = () => {
             <div>
                 <div className="slanted-div after:bg-[#CEFA05]" >
                     {/* overlay effect */}
-                    <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+                    <div className='absolute object-cover w-full opacity-5 overflow-hidden bg-no-repeat bg-cover -top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
 
                     <div className="mx-10 xl:mx-40 md:mb-40">
-                        <h1 className="text-black text-center text-4xl lg:text-7xl font-bold uppercase pb-20">A brand brings your business to life</h1>
+                        <h1 className="text-black text-center text-4xl md:text-6xl font-bold uppercase md:pb-20">A brand brings your business to life</h1>
                         <div className='z-50'>
                             <Card2
                                 section2={

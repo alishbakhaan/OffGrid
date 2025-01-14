@@ -12,7 +12,7 @@ const page = () => {
             <HeroComponents
                 bgImg={'/bg.svg'}
                 content={
-                    <div className='text-[#CEFA05] text-7xl lg:text-9xl font-bold uppercase'>
+                    <div className='text-[#CEFA05] text-center text-5xl md:text-9xl font-bold uppercase'>
                         <h1>WEBSITE DESIGN</h1>
                         <h1 className={londrina.className}>& DEVELOPMENT</h1>
                     </div>

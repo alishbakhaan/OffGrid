@@ -9,11 +9,12 @@ const Banner = () => {
         <div>
             <div>
                 <div className="slanted-div after:bg-[#CEFA05]" >
-                    {/* overlay effect */}
-                    <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+                     {/* overlay effect */}
+                     <div className='absolute object-cover w-full opacity-5 bg-cover bg-no-repeat overflow-hidden -top-20 xl:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+
                     <div className="relative">
                         <div className="mx-10 xl:mx-40 md:mb-40">
-                            <h1 className="text-black text-center text-5xl lg:text-7xl font-bold uppercase pb-20">Quality over quantity</h1>
+                            <h1 className="text-black text-center text-4xl sm:text-7xl font-bold uppercase sm:pb-20">Quality over quantity</h1>
                             <div>
                                 <Card2
                                     section2={
@@ -46,7 +47,7 @@ const Banner = () => {
                                 width={400}
                                 height={400}
                                 alt='card'
-                                className='cover w-full h-full'
+                                className='object-cover w-full h-full'
                             />
 
                         </div>
@@ -62,7 +63,6 @@ const Banner = () => {
 
                     {/* vectors */}
                     <div className='border-2 border-black absolute left-0 bottom-1/2 w-20 h-20 -skew-y-6'></div>
-                    <div className='bg-[#EEFFA3] absolute left-0 top-0 w-40 h-12 -skew-y-6'></div>
 
                 </div>
             </div>

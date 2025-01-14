@@ -15,8 +15,8 @@ const Card = ({ imagsrc, head, para, colors }) => {
                     className='object-cover w-full h-full'
                 />
                 <div className='p-10'>
-                    <h1 className="text-4xl font-bold uppercase">{head}</h1>
-                    <p className={`${lato.className} text-xl opacity-60 capitalize py-6`}>{para}</p>
+                    <h1 className=" text-2xl sm:text-4xl font-bold uppercase">{head}</h1>
+                    <p className={`${lato.className} text-base sm:text-xl opacity-60 capitalize py-6`}>{para}</p>
 
                     <div className="flex items-center gap-4">
                         <Image

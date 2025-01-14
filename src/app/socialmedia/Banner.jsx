@@ -9,19 +9,19 @@ const Banner = () => {
         <div>
             <div>
                 <div className="slanted-div after:bg-[#CEFA05]" >
-                    {/* overlay effect */}
-                    <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+                     {/* overlay effect */}
+                     <div className='absolute object-cover w-full opacity-5 bg-cover bg-no-repeat overflow-hidden -top-20 xl:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
 
                     <div className="relative mx-10 xl:mx-40 md:mb-40">
-                        <h1 className="text-black text-center text-5xl lg:text-7xl font-bold uppercase pb-20">SOCIAL MEDIA MANAGEMENT</h1>
+                        <h1 className="text-black text-center text-4xl md:text-6xl font-bold uppercase pb-10 md:pb-20">SOCIAL MEDIA MANAGEMENT</h1>
                         <div>
                             <Card2
                                 section2={
                                     <>
                                         <Image
                                             src={'/banner3.svg'}
-                                            width={400}
-                                            height={400}
+                                            width={1000}
+                                            height={1000}
                                             alt='card'
                                             className='cover w-full h-full'
                                         />
@@ -53,7 +53,7 @@ const Banner = () => {
                     </div>
 
                     {/* vectors */}
-                    <div className='border-2 border-black absolute left-0 bottom-32 w-20 h-20 -skew-y-6'></div>
+                    <div className='border-2 border-black absolute left-0 bottom-0 md:bottom-32 w-20 h-20 -skew-y-6'></div>
 
                 </div>
             </div>

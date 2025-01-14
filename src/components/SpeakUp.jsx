@@ -1,20 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
 import { Lato } from 'next/font/google';
+import Link from 'next/link';
 const lato = Lato({ subsets: ['latin'], weight: '400' });
 
 const SpeakUp = () => {
     return (
         <div className='slanted-div after:bg-[#CEFA05]'>
             {/* overlay effect */}
-            <div className='absolute object-cover w-full overflow-hidden opacity-20 bg-no-repeat bg-cover -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/speakbg.svg)` }}></div>
+            <div className='absolute object-cover w-full overflow-hidden opacity-20 bg-no-repeat bg-cover -top-80 lg:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/speak.svg)` }}></div>
 
             <div className="mx-10 mb-40">
                 <div className='flex flex-wrap gap-20 justify-center items-center'>
 
                     <div>
-                        <h1 className='text-5xl md:text-7xl uppercase font-extrabold'>About off grid</h1>
-                        <div className={`${lato.className} text-xl py-5 space-y-5 mb-10`}>
+                        <h1 className='text-4xl sm:text-6xl uppercase font-extrabold'>About off grid</h1>
+                        <div className={`${lato.className} text-base sm:text-xl py-5 space-y-5 mb-10`}>
                             <p>
                                 Hey!
                             </p>
@@ -47,7 +48,8 @@ const SpeakUp = () => {
                                 So what does this mean for you?
                             </p>
                         </div>
-                        <button className={`${lato.className} bg-black text-white uppercase px-8 py-4 rounded-md text-xl shadow-md shadow-black/40`}>Heres our promise</button>
+                        
+                       <Link href={'/'}> <button className={`${lato.className} bg-black cursor-pointer text-white uppercase px-8 py-4 rounded-md text-base sm:text-xl shadow-md shadow-black/40`}>Heres our promise</button></Link>
                     </div>
 
                     <div>

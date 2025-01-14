@@ -7,8 +7,8 @@ const lato = Lato({ subsets: ['latin'], weight: '400' });
 const Helmet = () => {
     return (
         <div>
-            <div className="bg-black p-20 flex flex-col-reverse xl:flex-row justify-center">
-                <div>
+            <div className="bg-black p-10 md:p-20 gap-5 flex flex-col-reverse xl:flex-row justify-center">
+            <div>
                     <h1 className='text-[#CEFA05] text-4xl md:text-5xl uppercase'>The benefits of a professional brand identity</h1>
 
                     <ol className={`${lato.className} text-white text-opacity-80 text-lg md:text-xl py-8 space-y-3`}>
@@ -24,14 +24,14 @@ const Helmet = () => {
             <div>
                 <Image
                         src='/Branding-helmet.svg'
-                        width={400}
-                        height={400}
+                        width={500}
+                        height={500}
                         alt='card'
-                        className='contain w-full h-full xl:ml-36'
+                        className='object-contain xl:ml-60'
                     /> 
-                </div>
- </div>
-            </div> 
+            </div>
+            </div>
+        </div> 
     )  
 }
 

@@ -11,7 +11,7 @@ const page = () => {
                 bgImg={'/bg.svg'}
                 content={
                     <div>
-                        <h1 className="text-[#CEFA05] text-7xl xl:text-9xl font-bold space-y-4 py-8 uppercase">EMAIL MARKETING</h1>
+                        <h1 className="text-[#CEFA05] text-7xl xl:text-9xl font-bold space-y-4 py-8 uppercase text-center">EMAIL MARKETING</h1>
                     </div>
                 }
             />

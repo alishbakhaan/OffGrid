@@ -6,12 +6,12 @@ const Clients = () => {
     return (
         <div className='slanted-div after:bg-[#CEFA05]'>
             {/* overlay effect */}
-            <div className='absolute object-cover w-full overflow-hidden opacity-10 bg-no-repeat bg-cover -top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/client.svg)` }}></div>
+            <div className='absolute object-cover w-full overflow-hidden opacity-10 bg-no-repeat bg-cover -top-[35%] lg:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/client.svg)` }}></div>
 
-            <div className='mx-20 xl:mx-60 mb-20 '>
+            <div className='mx-10 xl:mx-60 md:mb-20 '>
                 <h1 className='text-4xl md:text-6xl uppercase text-center'>We serve with Pride</h1>
 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-center gap-10 py-28">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 justify-center gap-10 py-10 md:py-28">
                     <div className='bg-white p-5 rounded-lg'>
                         <Image
                             src={'/clientslogo (5).svg'}

@@ -9,11 +9,12 @@ const Banner = () => {
         <div>
             <div>
                 <div className="slanted-div after:bg-[#CEFA05]" >
-                    {/* overlay effect */}
-                    <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+                     {/* overlay effect */}
+                     <div className='absolute object-cover w-full opacity-5 bg-cover bg-no-repeat overflow-hidden -top-20 xl:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+
                     <div className='relative'>
                         <div className="mx-10 xl:mx-40 ">
-                            <h1 className="text-black text-center text-5xl lg:text-7xl font-bold uppercase pb-20">We help you to generate more leads</h1>
+                            <h1 className="text-black text-center text-4xl sm:text-6xl font-bold uppercase sm:pb-20">We help you to generate more leads</h1>
                             <div>
                                 <Card2
                                     section2={
@@ -54,7 +55,6 @@ const Banner = () => {
                     </div>
                     {/* vectors */}
                     <div className='border-2 border-black absolute right-0 -top-20 w-20 h-20 -skew-y-6'></div>
-                    <div className='bg-[#EEFFA3] absolute left-0 top-0 w-40 h-12 -skew-y-6'></div>
 
                 </div>
             </div>

@@ -11,7 +11,7 @@ const SalesFunnel = () => {
 
             <div className="mx-10 md:mb-40 text-white">
                 <h1 className='text-4xl md:text-6xl text-center uppercase max-w-2xl m-auto'>SALES FUNNEL</h1>
-                <div className="flex md:flex-row flex-col-reverse gap-20 xl:gap-40 justify-center items-center py-10">
+                <div className="flex md:flex-row flex-col-reverse gap-20 justify-center items-center py-10">
                     <div>
                         <Image
                             src={'/funel-pic.svg'}
@@ -22,10 +22,10 @@ const SalesFunnel = () => {
                         />
                     </div>
                     <div>
-                        <p className={`${lato.className} text-lg md:text-2xl py-8 max-w-sm`}>
+                        <p className={`${lato.className} tracking-widest text-lg md:text-2xl py-8 max-w-md`}>
                             Take your business from a referral system and turn it into a powerhouse of lead automation and enquiry.
                         </p>
-                        <p className={`${lato.className} text-lg md:text-2xl py-8 max-w-sm`}>
+                        <p className={`${lato.className} tracking-widest text-lg md:text-2xl py-8 max-w-md`}>
                         Back fill your sales pipeline and give yourself the ability to build the business you’ve worked years trying to finesse.
                         </p>
                     </div>

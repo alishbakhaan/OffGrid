@@ -15,42 +15,29 @@ const Stargety = () => {
             <div>
                 <div className="slanted-div after:bg-white" >
 
-                    <div className="mx-10 xl:mx-40 md:mb-40">
+                    <div className="relative mx-10 xl:mx-32 md:mb-40">
 
-
-                        <Card2
-                            section2={
-                                <>
-                                    <Image
-                                        src={'/strategybg.svg'}
-                                        width={400}
-                                        height={400}
-                                        alt='card'
-                                        className='cover w-full h-full'
-                                    />
-                                </>
-                            }
-                            bgcolor={'bg-white p-0 lg:flex-row flex-col'}
-                            section1={
-                                <>
+                        <div className='grid xl:grid-cols-2 justify-center items-center gap-20 md:gap-32'>
+                            <div>
+                            <>
                                     <div className='flex gap-4 lg:gap-10 items-center'>
-                                        <h1 className="text-black text-6xl lg:text-9xl font-bold py-4 uppercase">Strategy</h1>
-                                        <div className='w-1/4 lg:w-full h-20 lg:h-32 bg-[#CEFA05] -skew-x-6'></div>
+                                        <h1 className="text-black text-5xl sm:text-6xl lg:text-9xl font-bold py-4 uppercase">Strategy</h1>
+                                        <div className='w-28 h-10 sm:h-20 lg:h-32 bg-[#CEFA05] -skew-x-12'></div>
                                     </div>
                                     <div className="flex gap-5 items-center">
-                                        <h1 className="text-black text-6xl lg:text-9xl font-bold py-4 uppercase">&</h1>
-                                        <h1 className={`${londrina.className} text-black text-7xl lg:text-9xl font-bold uppercase`}>Planning</h1>
+                                        <h1 className="text-black text-4xl sm:text-5xl lg:text-9xl font-bold py-4 uppercase">&</h1>
+                                        <h1 className={`${londrina.className} text-black text-5xl sm:text-6xl lg:text-9xl font-bold uppercase`}>Planning</h1>
                                     </div>
-                                    <div className="flex flex-wrap gap-10">
-                                        <div className=' space-y-3'>
-                                            <p className='text-xl'><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Consulting</p>
-                                            <p className='text-xl'><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Research + Discovery</p>
-                                            <p className='text-xl'><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Brand Strategy</p>
-                                            <p className='text-xl'><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Digital Strategy</p>
-                                            <p className='text-xl'><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Marketing Strategy</p>
+                                    <div className="flex flex-col md:flex-row gap-20 pt-10">
+                                        <div className='text-xl sm:text-2xl space-y-6'>
+                                            <p><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Consulting</p>
+                                            <p><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Research + Discovery</p>
+                                            <p><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Brand Strategy</p>
+                                            <p><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Digital Strategy</p>
+                                            <p><FontAwesomeIcon className='mr-4' icon={faArrowCircleRight} />Marketing Strategy</p>
                                         </div>
                                         <div className=''>
-                                            <p className={`${lato.className} text-base max-w-sm leading-loose`}>
+                                            <p className={`${lato.className} text-base sm:text-xl max-w-sm leading-relaxed tracking-wide`}>
                                                 Brand strategy is the blueprint that governs your brand. Developing a brand strategy allows you to compete
                                                 in the marketplace and achieve the best outcomes. We’ll support you to establish an effective brand strategy,
                                                 so you have a strong foundation for your future marketing tactics.
@@ -58,10 +45,21 @@ const Stargety = () => {
                                         </div>
                                     </div>
                                 </>
-                            }
-                        />
+                            </div>
+                            <div>
+                            <>
+                                    <Image
+                                        src={'/strategybg.svg'}
+                                        width={600}
+                                        height={600}
+                                        alt='card'
+                                        className='object-contain'
+                                    />
+                                </>
+                            </div>
+                        </div>
 
-                        <div>
+                        <div className='pt-10'>
                             <Card2
                                 section2={
                                     <>
@@ -177,7 +175,7 @@ const Stargety = () => {
                         width={400}
                         height={400}
                         alt='card'
-                        className='cover w-full h-full'
+                        className='object-cover -mb-24 xl:-mb-40 w-full h-full'
                     />
 
                 </div>

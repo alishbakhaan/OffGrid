@@ -7,14 +7,14 @@ const TradiesWork = () => {
   return (
     <div className="slanted-div after:bg-[#CEFA05]">
       {/* overlay effect */}
-      <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+      <div className='absolute object-cover w-full bg-cover opacity-5 bg-no-repeat overflow-hidden -top-96 lg:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
 
       <div className="mx-10 md:mb-40">
-        <h1 className='text-4xl md:text-6xl text-center uppercase max-w-2xl m-auto'>Why Tradies choose to work with Off Grid</h1>
+        <h1 className='text-4xl sm:text-6xl text-center uppercase max-w-2xl m-auto'>Why Tradies choose to work with Off Grid</h1>
         <div className="flex md:flex-row flex-col-reverse gap-20 xl:gap-40 justify-center items-center py-10">
           <div>
-            <h3 className={`${lato.className} text-4xl`}>You’ve probably read enough...so we’ll get <br /> straight to the point</h3>
-            <ol className={`${lato.className} text-lg md:text-2xl py-8 space-y-3 font-light`}>
+            <h3 className={`${lato.className} text-3xl sm:text-4xl`}>You’ve probably read enough...so we’ll get <br /> straight to the point</h3>
+            <ol className={`${lato.className} text-base sm:text-2xl py-8 space-y-3 font-light`}>
               <li>1. We’re Australian based</li>
               <li>2. We’re return on investment focused meaning if <br /> you’re not making gains after our optimisation <br /> period...we’ll be the first to call it out</li> 
               <li>3. We're a Tradie partner</li>

@@ -20,7 +20,7 @@ const HeroComponents = ({ bgImg, content }) => {
             {/* vectors */}
             <div className='bg-[#EEFFA3] absolute left-0 bottom-0 w-40 h-12 -skew-y-6'></div>
             <div className='bg-[#CEFA05] absolute left-0 bottom-10 w-20 h-20 -skew-y-12'></div>
-            <div className='border-2 border-[#CEFA05] absolute right-0 top-[60%] w-20 h-16 -skew-y-6'></div>
+            <div className='border-2 border-[#CEFA05] absolute right-0 top-96 w-20 h-16 -skew-y-6'></div>
             <div className=' absolute right-2 lg:right-52 text-xl top-1/4 lg:top-96 flex flex-col gap-5'>
                 <Link href={'/'}>
                     <Image

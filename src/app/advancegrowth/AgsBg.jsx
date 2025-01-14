@@ -8,7 +8,7 @@ const AgsBg = () => {
     return (
         <div className='slanted-div after:bg-[#CEFA05]'>
             {/* overlay effect */}
-            <div className='absolute object-cover w-full overflow-hidden opacity-10 bg-no-repeat bg-cover -top-40 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/agsbg.svg)` }}></div>
+            <div className='absolute object-cover w-full overflow-hidden opacity-10 bg-no-repeat bg-cover -top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/agsbg.svg)` }}></div>
 
             <div className='max-w-7xl m-auto p-10'>
                 <h1 className='text-4xl md:text-6xl uppercase text-center'>
@@ -16,7 +16,7 @@ const AgsBg = () => {
                 </h1>
                 <p className={`${lato.className} text-center text-2xl py-10`}>It’s essentially like having an entire marketing team at your disposal</p>
                 <div className='md:mb-40 text-center'>
-                    <div className='flex flex-wrap md:justify-center gap-10 py-5 text-2xl md:text-4xl'>
+                    <div className='flex flex-col lg:flex-row md:justify-center gap-10 py-5 text-2xl md:text-4xl'>
                         <div className='gap-4 inline-flex'>
                             <FontAwesomeIcon icon={faCheckCircle} />
                             <h2 className='uppercase'>Website</h2>
@@ -30,7 +30,7 @@ const AgsBg = () => {
                             <h2 className='uppercase'>Social Media Manager</h2>
                         </div>
                     </div>
-                    <div className='flex flex-wrap md:justify-center gap-10 py-5 text-2xl md:text-4xl'>
+                    <div className='flex flex-col lg:flex-row md:justify-center gap-10 py-5 text-2xl md:text-4xl'>
                         <div className='gap-4 inline-flex'>
                             <FontAwesomeIcon icon={faCheckCircle} />
                             <h2 className='uppercase'>Professional email writer</h2>

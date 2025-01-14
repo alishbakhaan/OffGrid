@@ -7,7 +7,7 @@ const AboutUs = () => {
         <div>
             <div className="slanted-div after:bg-[#CEFA05]" >
                 {/* overlay effect */}
-                <div className='absolute object-cover w-full opacity-5 overflow-hidden -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
+                <div className='absolute object-cover w-full bg-cover opacity-10 bg-no-repeat overflow-hidden -top-40 lg:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/aboutbg.svg)` }}></div>
 
                 <div className="slanted-div after:bg-black my-10 mx-8 xl:mx-40">
                     <Image
@@ -15,7 +15,7 @@ const AboutUs = () => {
                         alt='icon'
                         width={300}
                         height={300}
-                        className='object-contain w-auto absolute top-0 sm:-top-52 sm:left-[40%] z-30'
+                        className='object-contain w-auto absolute -top-20 sm:-top-52 left-[10%] sm:left-[40%] z-30'
                     />
                     <div className="flex justify-center items-end sm:-mt-52">
                         <div className="bg-[#CEFA05] p-4 sm:p-10 lg:p-20 h-1/2 z-20">

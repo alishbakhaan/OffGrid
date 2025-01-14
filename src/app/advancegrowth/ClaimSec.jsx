@@ -11,13 +11,13 @@ const ClaimSec = () => {
     <>
         <div className='slanted-div after:bg-white'>
             {/* overlay effect */}
-            <div className='absolute object-cover w-full overflow-hidden bg-no-repeat bg-cover -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/claimsec.svg)` }}></div>
+            <div className='absolute object-cover w-full opacity-10 overflow-hidden bg-no-repeat bg-cover -top-40 lg:-top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/speak.svg)` }}></div>
 
-            <div className=' max-w-5xl m-auto px-10 pb-32'>
-                <h1 className='text-5xl lg:text-7xl uppercase text-center'>claim our limited time offer </h1>
-                <h1 className={`${londrinaoutline.className} text-5xl lg:text-7xl uppercase text-center`}>‘either we get you results or you PAY NOTHING’ </h1>
+            <div className='relative max-w-7xl m-auto px-10 pb-32'>
+                <h1 className='text-4xl sm:text-6xl xl:text-8xl uppercase text-center'>claim our limited time offer </h1>
+                <h1 className={`${londrinaoutline.className} text-4xl sm:text-6xl xl:text-8xl uppercase text-center`}>‘either we get you results or you PAY NOTHING’ </h1>
                 <div  className="flex justify-center pt-10">
-                <Button colors={'bg-black text-[#CEFA05]'} text={' Book a Free Road Map session'} para={' (risk free, results guaranteed)'}/>
+                <Button colors={'bg-black text-[#CEFA05]'} text={' Book a Free Road Map session'} para={'(risk free, results guaranteed)'}/>
                 </div>
             </div>  
 

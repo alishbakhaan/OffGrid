@@ -5,7 +5,7 @@ const PopularBlog = () => {
     <div>
       <div className="slanted-div after:bg-black" >
         {/* overlay effect */}
-        <div className='absolute object-cover w-full opacity-20 overflow-hidden bg-no-repeat bg-cover -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/blogbg.svg)` }}></div>
+        <div className='absolute object-cover w-full opacity-20 overflow-hidden bg-no-repeat bg-cover -top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/blogbg.svg)` }}></div>
 
         <div className="relative mx-10 xl:mx-40 md:mb-40">
           <h1 className="text-white text-center text-4xl lg:text-7xl font-bold uppercase pb-20">Popular blogs</h1>
@@ -24,9 +24,8 @@ const PopularBlog = () => {
         </div>
 
         {/* vectors */}
-        <div className='border-2 border-black absolute right-0 -top-20 w-20 h-20 -skew-y-6'></div>
         <div className='bg-white absolute left-0 -top-10 w-60 h-10 -skew-y-6'></div>
-        <div className='bg-[#EEFFA3] absolute right-0 -top-56 w-40 h-12 -skew-y-3'></div>
+        <div className='bg-[#EEFFA3] absolute right-0 top-0 lg:-top-56 w-40 h-12 -skew-y-6'></div>
 
       </div>
     </div>

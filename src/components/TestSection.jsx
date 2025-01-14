@@ -1,5 +1,6 @@
 import React from 'react'
 import { Lato } from 'next/font/google';
+import Link from 'next/link';
 const lato = Lato({ subsets: ['latin'], weight: '700' });
 
 const TestSection = () => {
@@ -8,9 +9,9 @@ const TestSection = () => {
             {/* overlay effect */}
             <div className='absolute object-cover w-full overflow-hidden bg-no-repeat bg-cover -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/testbg.svg)` }}></div>
 
-            <div className='mx-20 lg:mx-60 mb-20 md:mb-40 '>
-                <h1 className='text-3xl lg:text-6xl uppercase text-center'>Do you think your website could be doing better? Check with our Free website Performance Test</h1>
-                <div className={`${lato.className} py-10 space-y-4`}>
+            <div className='relative mx-10 lg:mx-60 mb-20 md:mb-40 '>
+                <h1 className='text-4xl md:text-6xl uppercase text-center'>Do you think your website could be doing better? Check with our Free website Performance Test</h1>
+                <div className={`${lato.className} py-10 space-y-4 text-xl`}>
                     <label className='block py-2 text-black text-opacity-60 capitalize' htmlFor="website">Website URL</label>
                     <input className='block w-full text-black text-opacity-60 capitalize p-4 bg-none border-2 rounded-md' type="url" name="" id="" placeholder='Enter your website address' />
                     <label className='block py-2 text-black text-opacity-60 capitalize' htmlFor="website">What’s the biggest challenge with your website right now?</label>
@@ -21,7 +22,8 @@ const TestSection = () => {
                         <option value="audi">I need more traffic</option>
                     </select>
                 </div>
-                <button className={`${lato.className} bg-[#CEFA05] text-black w-full uppercase p-4 rounded-md text-xl shadow-md shadow-black/30`}>Next</button>
+                
+                <Link href={'/'}><button className={`${lato.className} bg-[#CEFA05] text-black w-full uppercase p-4 rounded-md text-xl shadow-md shadow-black/30 cursor-pointer`}>Next</button></Link>
             </div>
         </div>
     )

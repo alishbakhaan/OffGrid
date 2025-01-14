@@ -8,10 +8,10 @@ const OtherBlog = () => {
         <div>
             <div className="slanted-div after:bg-[#CEFA05]" >
                 {/* overlay effect */}
-                <div className='absolute object-cover w-full opacity-5 overflow-hidden bg-no-repeat bg-cover -top-28 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/blogbg.svg)` }}></div>
+                <div className='absolute object-cover w-full opacity-5 overflow-hidden bg-no-repeat bg-cover -top-60 right-0 left-0 bottom-0' style={{ backgroundImage: `url(/blogbg.svg)` }}></div>
 
               <div className="mx-10 xl:mx-40 md:mb-40">
-              <h1 className="text-white text-center text-4xl lg:text-7xl font-bold uppercase pb-20">Other blogs</h1>
+              <h1 className="text-black text-center text-4xl lg:text-7xl font-bold uppercase pb-20">Other blogs</h1>
 
               <div className="grid md:grid-cols-2 gap-20">
                 <Card colors={'bg-black text-white'} imagsrc={'/other-blog-1.svg'} head={'This is our First blog'} para={'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elitadipiscing elit'}/>
